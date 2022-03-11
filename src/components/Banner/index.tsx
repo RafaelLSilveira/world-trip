@@ -6,7 +6,8 @@ export default function Banner() {
       p={10}
       w="100%"
       h='335px'
-      backgroundImage='/Images/Banner/background.svg'
+      background='url(/Images/Banner/background.svg) fixed no-repeat'
+      backgroundSize='cover'
     >
       <Flex alignItems='center' justifyContent='space-around'>
         <Stack spacing={['2', '4']}>
