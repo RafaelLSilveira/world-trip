@@ -1,0 +1,130 @@
+{
+  "continents": [
+    {
+      "slug": "europe",
+      "title": "Europa",
+      "banner": "/Images/Continents/Europe/europe-banner.svg",
+      "content": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "countriesCount": 50,
+      "languagesCount": 60,
+      "citiesCount": 27,
+      "citiesInfo": [
+        {
+          "thumbImage": "/Images/Continents/Europe/Cities/london.svg",
+          "title": "Londres",
+          "subtitle": "Reino Unido",
+          "icon": "/Images/Continents/Europe/Cities/united-kingdom-icon.svg"
+        },
+        {
+          "thumbImage": "/Images/Continents/Europe/Cities/roma.svg",
+          "title": "Roma",
+          "subtitle": "Itália",
+          "icon": "/Images/Continents/Europe/Cities/italy-icon.svg"
+        },
+        {
+          "thumbImage": "/Images/Continents/Europe/Cities/paris.svg",
+          "title": "Paris",
+          "subtitle": "França",
+          "icon": "/Images/Continents/Europe/Cities/france-icon.svg"
+        },
+        {
+        "thumbImage": "/Images/Continents/Europe/Cities/praga.svg",
+        "title": "Praga",
+        "subtitle": "Republica Tcheca",
+        "icon": "/Images/Continents/Europe/Cities/czech-republic-icon.svg"
+        },
+        {
+          "thumbImage": "/Images/Continents/Europe/Cities/amsterdam.svg",
+          "title": "Amsterdã",
+          "subtitle": "Holanda",
+          "icon": "/Images/Continents/Europe/Cities/netherlands-icon.svg"
+        }
+      ]
+    },
+    {
+      "slug": "africa",
+      "title": "Africa",
+      "banner": "/Images/Continents/Africa/africa-banner.jpg",
+      "content": "Mussum Ipsum, cacilds vidis litro abertis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!In elementis mé pra quem é amistosis quis leo.",
+      "countriesCount": 50,
+      "languagesCount": 60,
+      "citiesCount": 27,
+      "citiesInfo": [
+        {
+          "thumbImage": "/Images/Continents/Europe/Cities/london.svg",
+          "title": "Londres",
+          "subtitle": "Reino Unido",
+          "icon": "/Images/Continents/Europe/Cities/united-kingdom-icon.svg"
+        }
+      ]
+    },
+    {
+      "slug": "asia",
+      "title": "Asia",
+      "banner": "/Images/Continents/Asia/asia-banner.jpg",
+      "content": "Mussum Ipsum, cacilds vidis litro abertis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!In elementis mé pra quem é amistosis quis leo.",
+      "countriesCount": 50,
+      "languagesCount": 60,
+      "citiesCount": 27,
+      "citiesInfo": [
+        {
+          "thumbImage": "/Images/Continents/Europe/Cities/london.svg",
+          "title": "Londres",
+          "subtitle": "Reino Unido",
+          "icon": "/Images/Continents/Europe/Cities/united-kingdom-icon.svg"
+        }
+      ]
+    },
+    {
+      "slug": "north-america",
+      "title": "América do Norte",
+      "banner": "/Images/Continents/NorthAmerica/north-america-banner.jpg",
+      "content": "Mussum Ipsum, cacilds vidis litro abertis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!In elementis mé pra quem é amistosis quis leo.",
+      "countriesCount": 50,
+      "languagesCount": 60,
+      "citiesCount": 27,
+      "citiesInfo": [
+        {
+          "thumbImage": "/Images/Continents/Europe/Cities/london.svg",
+          "title": "Londres",
+          "subtitle": "Reino Unido",
+          "icon": "/Images/Continents/Europe/Cities/united-kingdom-icon.svg"
+        }
+      ]
+    },
+    {
+      "slug": "oceania",
+      "title": "Oceania",
+      "banner": "/Images/Continents/Oceania/oceania-banner.jpg",
+      "content": "Mussum Ipsum, cacilds vidis litro abertis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!In elementis mé pra quem é amistosis quis leo.",
+      "countriesCount": 50,
+      "languagesCount": 60,
+      "citiesCount": 27,
+      "citiesInfo": [
+        {
+          "thumbImage": "/Images/Continents/Europe/Cities/london.svg",
+          "title": "Londres",
+          "subtitle": "Reino Unido",
+          "icon": "/Images/Continents/Europe/Cities/united-kingdom-icon.svg"
+        }
+      ]
+    },
+    {
+      "slug": "south-america",
+      "title": "América do Sul",
+      "banner": "/Images/Continents/SouthAmerica/south-america-banner.jpg",
+      "content": "Mussum Ipsum, cacilds vidis litro abertis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio.Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!In elementis mé pra quem é amistosis quis leo.",
+      "countriesCount": 50,
+      "languagesCount": 60,
+      "citiesCount": 27,
+      "citiesInfo": [
+        {
+          "thumbImage": "/Images/Continents/Europe/Cities/london.svg",
+          "title": "Londres",
+          "subtitle": "Reino Unido",
+          "icon": "/Images/Continents/Europe/Cities/united-kingdom-icon.svg"
+        }
+      ]
+    }
+  ]
+}

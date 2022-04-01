@@ -7,6 +7,7 @@ export default function Menu() {
       p={10}
       w="100%"
       mt={28}
+      aria-label='menu'
     >
       <Flex 
         maxWidth='1160px'
@@ -15,11 +16,11 @@ export default function Menu() {
         alignItems='center'
       >
         <HStack spacing='40' maxWidth='1160px' wrap='wrap'>
-          <MenuItem label='vida noturna' iconSrc='/Images/Menu/cocktail.svg' />
-          <MenuItem label='praia' iconSrc='/Images/Menu/surf.svg' />
-          <MenuItem label='moderno' iconSrc='/Images/Menu/building.svg' />
-          <MenuItem label='clássico' iconSrc='/Images/Menu/museum.svg' />
-          <MenuItem label='mais...' iconSrc='/Images/Menu/earth.svg' />
+          <MenuItem label='vida noturna' alt='boates ou pubs' iconSrc='/Images/Menu/cocktail.svg' />
+          <MenuItem label='praia' alt='praias ou lugares em ambientes abertos' iconSrc='/Images/Menu/surf.svg' />
+          <MenuItem label='moderno' alt='construções modernas' iconSrc='/Images/Menu/building.svg' />
+          <MenuItem label='clássico' alt='museus ou teatross' iconSrc='/Images/Menu/museum.svg' />
+          <MenuItem label='mais...' alt='outros lugares' iconSrc='/Images/Menu/earth.svg' />
         </HStack>
       </Flex>
     </Box>

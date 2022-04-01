@@ -7,6 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "server": "json-server --watch --port 3004 src/FakeApi/db.json",
     "lint": "next lint",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
@@ -16,9 +17,11 @@
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
     "framer-motion": "^6.2.8",
+    "json-server": "^0.17.0",
     "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
     "swiper": "^8.0.7"
   },
   "devDependencies": {

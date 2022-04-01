@@ -1,6 +1,8 @@
-import { Button } from '@chakra-ui/react'
+import { Button, useColorModeValue } from '@chakra-ui/react'
 
 export default function ButtonToTop() {
+    const color = useColorModeValue('light', 'dark')
+
     return (
         <Button
             m={5}
@@ -10,13 +12,13 @@ export default function ButtonToTop() {
             position='fixed'
             right='0' 
             bottom='0'
-            backgroundColor='highlight'
-            color='light.headingAndText'
+            backgroundColor={`${color}.highlight`}
+            color={`${color}.text`}
             fontSize='2xl'
             transition='filter 1s'
             _hover={{
-                backgroundColor: 'highlight',
-                color: 'light.headingAndText',
+                backgroundColor: `${color}.highlight`,
+                color: `${color}.text`,
                 filter: 'brightness(0.5)'
             }}
         >

@@ -1,15 +1,13 @@
-import { Box, Flex, Text } from '@chakra-ui/react'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper'
-
+import { Box } from '@chakra-ui/react'
+import { A11y, Navigation, Pagination, Scrollbar } from 'swiper'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
-import SwiperItem  from './SwiperItem'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import SwiperItem from './SwiperItem'
 
 export default function Slider() {
-    console.warn(<SwiperItem  title='Europa' subtitle='O continente mais antigo.' imgSrc='/Images/Continents/Europe/europe.svg' />)
     return (
         <Box 
             p={10}
@@ -18,6 +16,7 @@ export default function Slider() {
             mt={28}
             m='0 auto'
             maxWidth='1240px'
+            aria-label='slider'
         >
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -25,21 +24,24 @@ export default function Slider() {
                 slidesPerView={1}
                 navigation
                 pagination={{ clickable: true }}
-                // scrollbar={{ draggable: true }}
-                // onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
             >
                 <SwiperSlide>
-                    <SwiperItem  title='Europa' subtitle='O continente mais antigo.' imgSrc='/Images/Continents/Europe/europe.svg' />
+                    <SwiperItem slug='north-america' title='América do Norte' subtitle='O continente mais antigo.' imgSrc='/Images/Continents/NorthAmerica/north-america.jpg' />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <SwiperItem  title='Europa 2' subtitle='O continente mais antigo.' imgSrc='/Images/Continents/Europe/europe.svg' />
+                    <SwiperItem  slug='south-america' title='América do Sul' subtitle='O continente mais antigo.' imgSrc='/Images/Continents/SouthAmerica/south-america.jpg' />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <SwiperItem  title='Europa 3' subtitle='O continente mais antigo.' imgSrc='/Images/Continents/Europe/europe.svg' />
+                    <SwiperItem slug='asia' title='Ásia' subtitle='O continente mais antigo.' imgSrc='/Images/Continents/Asia/asia.jpg' />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <SwiperItem  title='Europa 4' subtitle='O continente mais antigo.' imgSrc='/Images/Continents/Europe/europe.svg' />
+                    <SwiperItem  slug='africa' title='África' subtitle='O continente mais antigo.' imgSrc='/Images/Continents/Africa/africa.jpg' />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <SwiperItem  slug='europe' title='Europa' subtitle='O continente mais antigo.' imgSrc='/Images/Continents/Europe/europe.svg' />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <SwiperItem  slug='oceania' title='Oceania' subtitle='O continente mais antigo.' imgSrc='/Images/Continents/Oceania/oceania.jpg' />
                 </SwiperSlide>
             </Swiper>
         </Box>

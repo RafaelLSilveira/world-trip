@@ -1,20 +1,30 @@
-import { extendTheme } from '@chakra-ui/react'
+import { extendTheme, type ThemeConfig } from '@chakra-ui/react'
+
+const config: ThemeConfig = {
+    initialColorMode: 'light',
+    useSystemColorMode: false,
+}
 
 export const theme = extendTheme({
+    config,
     colors: {
         dark: {
-            black: '#000000',
+            background: 'var(--chakra-colors-blackAlpha-600)',
             headingAndText: '#47585B',
-            info: '#999999',
-            infoHalf: 'rgba(153, 153, 153, 0.5)'
+            text: '#DADADA',
+            info: '#DADADA',
+            infoHalf: 'rgba(153, 153, 153, 0.5)',
+            icon: 'var(--chakra-colors-yellow-500)',
+            highlight: 'rgba(255, 186, 8, 0.5)'
         },
         light: {
-            white: '#EEEEEE',
+            background: '#EEEEEE',
             headingAndText: '#F5F8FA',
-            info: '#DADADA'
+            text: '#47585B',
+            info: '#999999',
+            icon: 'black',
+            highlight: '#FFBA08',
         },
-        highlight: '#FFBA08',
-        highlightHalf: 'rgba(255, 186, 8, 0.5)'
     },
     fonts: {
         heading: 'Poppins, sans-serif',
@@ -44,11 +54,13 @@ export const theme = extendTheme({
                 height: '100%',
                 objectFit: 'cover'
             },
-            '.swiper-pagination-bullet-active': {
+            '.swiper-pagination-bullet.swiper-pagination-bullet-active': {
                 background: 'highlight'
             },
             '.swiper-pagination-bullet': {
-                padding: 2
+                padding: 2,
+                opacity: 'unset',
+                background: 'light.info'
             },
             '.swiper-button-prev': {
                 marginLeft: 30,
